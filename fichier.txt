@@ -92,13 +92,29 @@ git merge feature
 
 15. Faites une capture d'écran de l'historique de vos commit sur master, ajoutez la au dossier image et faites un commit. 
 
+captures d'ecran faite 
 
+git add .
+
+git commit -m "fait"
 
 16. Créez un repo en ligne dans lequel vous pousserez votre dossier. 
+
+dosier créer sur giyhub
+
+git remote add origin https://github.com/ayivileon/cc_ayivi_leon-.git
+
+ git push origin master
+
+
 17. Sur GitHub, créez un nouveau fichier origin.txt sur la branche master. Puis tirez le dans votre repo local.
+
+git pull origin master
+
+
 18. Créez une nouvelle branche feedback, ajoutez un fichier feedback.txt dans lequel vous écrirez votre feedback sur le cours
 (vous ne serez ni avantagé ni pénalisé selon le feedback). Créez ensuite une Pull Request et mergez la dans master depuis GitHub.
 
-Lien de votre repo GitHub : 
+Lien de votre repo GitHub : https://github.com/ayivileon/cc_ayivi_leon-.git
 Vous laisserez votre repo distant en public et écrirez le lien dans ce fichier que vous rendez sur classroom. 
 
