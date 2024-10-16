@@ -1,31 +1,104 @@
-## question 2: 
+1. A l'aide du terminal, créez un dossier "CC_nom_prenom" dans lequel vous initialiserez un repository git.
 
+QUESTIONS DE COURS.
+2. Qu'est ce que Git et à quoi sert-il ?
+ 
 Git est un système de contrôle de version distribué
 Il permet de contrôler et de suivre les changements d'un projet au fil du temps.
 
-## question 3: 
+3. Comparez Git et GitHub.
 
 Git est un logiciel de gestion de version  alors que Github est un Service d'hébergement de dépôt Git
 
-## question 4:
+4. Donnez les deux espaces dans lesquels peuvent se trouver les fichiers avant de réaliser un commit.
 
 les deux espaces de traval sont: 
 --Working Directory
 --staging area
 
-## qestion 5
+
+QUESTIONS PRATIQUES. 
+
+5. Après avoir répondu aux questions de cours, ajoutez ce fichier dans votre repo et faites votre premier commit. 
 
 git add fichier.txt 
 git commit -m "commit"
 
-## question 6
+6. Créez une branche feature et placez vous dessus. Donnez les 3 méthodes de création de branche. 
 
-"git switch -c feature"
+git checkout -b feature
 
-"git checkout -b feature"
+git branch feature
+git checkout feature
 
-"git branch feature
-git checkout feature"
+git switch -c feature
 
-## question 7
+
+
+7. Ajoutez un fichier texte film.txt à votre dossier et écrivez votre film préféré à l'intérieur. 
+
+echo "Dead or alive" > film.txt
+
+8. Ajoutez un fichier texte serie.txt à votre dossier et écrivez votre série préférée à l'intérieur. 
+
+echo "Game of thrones" > serie.txt
+
+9. Faites un commit en ajoutant uniquement le fichier film.txt à votre commit. 
+
+git add film.txt
+
+git commit -m "commit film"
+
+10. Ajoutez un fichier citation.txt dans lequel vous écrirez votre citation préférée. 
+
+echo "No pain No gain" > citation.txt
+
+11. Faites un commit qui ajoute toutes les modifications. 
+
+git add .
+
+git commit -m "toutes les modifications"
+
+12. Sur une nouvelle branche add_images, créez un fichier "ignore.txt" et ignorez le. Vous ferez ensuite un capture d'écran qui montre que le 
+fichier est bien ignoré et vous ajouterez cette capture dans un dossier "images". Vous pourrez ensuite commit les changements.
+
+git switch -c add_images
+
+echo "" > ignore.txt 
+
+git add .
+
+git commit -m "images ajoutée"
+
+
+13. Faites une capture d'écran de vos branches et ajoutez la au dossier image et faites un commit.
+
+git branch 
+
+je fais la capture d'ecran et je l'ajoute au dossier images manuellemnt
+
+git add .
+
+git commit -m "capture ajoutée"
+
+
+14. Mergez vos branches feature et add_images dans master. 
+
+git switch master
+
+git merge add_images
+
+git merge feature
+
+15. Faites une capture d'écran de l'historique de vos commit sur master, ajoutez la au dossier image et faites un commit. 
+
+
+
+16. Créez un repo en ligne dans lequel vous pousserez votre dossier. 
+17. Sur GitHub, créez un nouveau fichier origin.txt sur la branche master. Puis tirez le dans votre repo local.
+18. Créez une nouvelle branche feedback, ajoutez un fichier feedback.txt dans lequel vous écrirez votre feedback sur le cours
+(vous ne serez ni avantagé ni pénalisé selon le feedback). Créez ensuite une Pull Request et mergez la dans master depuis GitHub.
+
+Lien de votre repo GitHub : 
+Vous laisserez votre repo distant en public et écrirez le lien dans ce fichier que vous rendez sur classroom. 
 
