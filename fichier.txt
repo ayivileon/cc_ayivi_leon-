@@ -17,3 +17,15 @@ les deux espaces de traval sont:
 
 git add fichier.txt 
 git commit -m "commit"
+
+## question 6
+
+"git switch -c feature"
+
+"git checkout -b feature"
+
+"git branch feature
+git checkout feature"
+
+## question 7
+
