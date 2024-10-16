@@ -15,3 +15,5 @@ les deux espaces de traval sont:
 
 ## qestion 5
 
+git add fichier.txt 
+git commit -m "commit"
