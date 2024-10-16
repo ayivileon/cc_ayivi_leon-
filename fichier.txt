@@ -1,0 +1,17 @@
+## question 2: 
+
+Git est un système de contrôle de version distribué
+Il permet de contrôler et de suivre les changements d'un projet au fil du temps.
+
+## question 3: 
+
+Git est un logiciel de gestion de version  alors que Github est un Service d'hébergement de dépôt Git
+
+## question 4:
+
+les deux espaces de traval sont: 
+--Working Directory
+--staging area
+
+## qestion 5
+
